@@ -1,0 +1,14 @@
+.slide img{height: 68vh}
+a{text-decoration: none;
+font-size: 28px;
+width: 60px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+transition: all .4s ease-in-out;
+
+color: black;}
+
+a:hover{transform: scale(1.2);
+color: black;}
+
