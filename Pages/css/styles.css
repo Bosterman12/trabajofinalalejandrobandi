@@ -26,3 +26,12 @@ text-align: center;}
 .card-body{background-size: cover;
 }
 
+.cards-wrapper{display: flex;
+justify-items: center;
+justify-content: space-around;
+background-color: black;}
+
+@media (max-width 567px) {.cards-wrapper{display: none;}}
+    
+}
+
