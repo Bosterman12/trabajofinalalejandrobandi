@@ -18,7 +18,11 @@ color: black;}
 .row{align-items: center;
 justify-items: center;
 justify-content: space-around;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
+
 
 .card{height: 68vh;
 text-align: center;}
@@ -31,7 +35,16 @@ justify-items: center;
 justify-content: space-around;
 background-color: black;}
 
-@media (max-width 567px) {.cards-wrapper{display: none;}}
+h4{text-decoration: none;
+    font-size: 28px;
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    transition: all .4s ease-in-out;
     
-}
+    color:red;
+    }
+
+
 
