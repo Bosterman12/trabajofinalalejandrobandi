@@ -1,6 +1,6 @@
 
 
-.slide img{height: 68vh}
+.slide img{height: 65vh;}
 a{text-decoration: none;
 font-size: 28px;
 width: 160px;
@@ -55,6 +55,25 @@ color: white;}
 
 .container-fluid{background-color: black;
 }
+
+header{
+    justify-items: center;
+    justify-content: space-around;
+    background-color: black;
+    }
+
+nav{
+    justify-items: center;
+    justify-content: space-around;}
+
+section{height: 65vh;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: black;}
+
+footer{height: 5vh;
+    justify-items: center;
+    justify-content: space-around;}
 
 
 
