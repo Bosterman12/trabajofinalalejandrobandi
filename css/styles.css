@@ -28,6 +28,8 @@ background-size: cover;
 text-align: center;}
 
 .card-body{background-size: cover;
+    height: 30vh;
+    
 }
 
 .cards-wrapper{display: flex;
@@ -35,6 +37,7 @@ justify-items: center;
 justify-content: space-around;
 background-color: black;
 height: 65vh;}
+
 
 h4{text-decoration: none;
     font-size: 28px;
@@ -66,15 +69,23 @@ nav{
     justify-items: center;
     justify-content: space-around;}
 
-section{height: 65vh;
+section{
     justify-items: center;
     justify-content: space-around;
-    background-color: black;}
+    background-color: black;
+    }
 
 footer{height: 5vh;
     justify-items: center;
     justify-content: space-around;}
 
+.card-img-top{height: 30vh;}
+
+.card-text{height: 10vh;}
+
+.card-title{height: 5vh;}
+
+button:hover{color: aquamarine;}
 
 
 
