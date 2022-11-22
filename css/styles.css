@@ -101,9 +101,18 @@ footer{height: 5vh;
 .card-title{height: 5vh;}
 
 button:hover{box-shadow: 5px 5px 20px rgba(158, 13, 44, 0.4);
-    transform: scale(1.5)}
+    transform: scale(1.2);
+    text-align: center;
+}
 
-
+.accordion{height: 65vh;}
+.accordion-header{height: 10vh;
+font-size: 28px;
+text-align: center;}
+.accordion-body{height: 30vh;
+overflow:auto;}
+.accordion-button collapsed{font-size: 2rem;
+text-align: center;}
 
 
 
